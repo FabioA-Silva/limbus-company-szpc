@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Limbus-Company - Devdobro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="src/imagens/logo.png" alt="Logo x-men">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um pecador </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="yi-sang" data-name="Yi Sang"
+                data-descricao="Anteriormente, o mais jovem chefe de pesquisa de uma divisão confidencial, ele saiu por razões desconhecidas.">
+                    <img src="./src/imagens/yi-sang.jpg" alt="Personagem Yi Sang">
+                </li>
+                <li class="personagem" id="faust" data-name="Faust"
+                data-descricao="Uma mulher brilhante com um orgulho estoico — mas insuportável — para sustentá-la, sua inteligência levou a Limbus Company a recrutá-la pessoalmente. 
+                 Com o cientista Yi Sang como parceiro, Faust posteriormente desenvolveu o ônibus privado da empresa, Mephistopheles.">
+                    <img src="./src/imagens/faust.jpg" alt="Personagem Faust">
+                </li>
+                <li class="personagem" id="don-quixote" data-name="Don Quixote"
+                data-descricao="Uma funcionária excessivamente idealista, com energia de sobra, ela fica encantada com a vida de aventura que os Fixers (aos seus olhos) levam.
+                 No entanto, sua personalidade quixotesca a leva a tomar decisões precipitadas e, mais provavelmente do que não, colocará missões em risco se não for mantida sob controle.
+               ">
+                    <img src="./src/imagens/don-quixote.jpg" alt="Personagem Don Quixote">
+                </li>
+                <li class="personagem" id="ryoshu" data-name="Ryoshu"
+                data-descricao="Ela é a melhor espadachim da equipe, mesmo tendo sido enfraquecida por se tornar uma pecadora.">
+                    <img src="./src/imagens/ryoshu.jpg" alt="Personagem Ryoshu">
+                </li>
+                <li class="personagem" id="meursault" data-name="Meursault"
+                data-descricao="Um homem direto e estoico, ele é franco, puramente profissional e executará as ordens ao pé da letra.
+                 Nada menos, nada mais.">
+                    <img src="./src/imagens/meursault.jpg" alt="Personagem Meursault">
+                </li>
+                <li class="personagem" id="hong-lu" data-name="Hong Lu"
+                data-descricao=''>
+                    <img src="./src/imagens/hong-lu.jpg" alt="Personagem Hong Lu">
+                </li>
+                <li class="personagem" id="heathcliff" data-name="Heathcliff"
+                data-descricao='Um antigo "destruidor profissional" de propriedades e pessoas, Heathcliff é um homem com um pavio terrivelmente curto que não se ajoelhará diante de ninguém até seu último suspiro. Crescendo nas ruas sombrias da pobreza infernal da cidade, ele tem uma ampla experiência em ambientes hostis, com um temperamento à altura.
+                 Devido a essa criação, ele tem uma enorme raiva revestida de aço em relação aos ricos que se atrevem a viver em grande estilo.'>
+                    <img src="./src/imagens/heathcliff.jpg" alt="Personagem Heathcliff">
+                </li>
+                <li class="personagem" id="ishmael" data-name="Ishamel"
+                data-descricao="Ishmael foi empregada em um navio que embarcou em uma viagem infernal. Desde o fim dessa aventura, ela tem pulado de escritório em escritório como uma Fixer em busca de sobreviventes, até ser recrutada pela Limbus Company.">
+                    <img src="./src/imagens/ishmael.jpg" alt="Personagem Ishamel">
+                </li>
+                <li class="personagem" id="rodion" data-name="Rodion"
+                data-descricao="">
+                    <img src="./src/imagens/rodion.jpg" alt="Personagem Rodion">
+                </li>
+                <li class="personagem" id="sinclair" data-name="Sinclair"
+                data-descricao="Embora seja um jovem tímido e de coração bondoso, sendo um dos Pecadores mais afáveis, o que se esconde abaixo dessa personalidade é um poço inexplorado de potencial volátil.
+                 Somente o tempo dirá o que irá surgir disso.">
+                    <img src="./src/imagens/sinclair.jpg" alt="Personagem Sinclair">
+                </li>
+                <li class="personagem" id="outis" data-name="Outis"
+                data-descricao="Uma veterana militar experiente, com muitos anos de serviço e sem tolerância para covardia ou negligência.
+                 No entanto, sendo uma bajuladora profissional, ela rapidamente muda de atitude diante de seus superiores — não importa quão disfarçadas sejam suas baixas expectativas em relação a eles na realidade.">
+                    <img src="./src/imagens/outis.jpg" alt="Personagem Outis">
+                </li>
+                <li class="personagem" id="gregor" data-name="Gregor"
+                data-descricao="">
+                    <img src="./src/imagens/gregor.jpg" alt="Personagem Gregor">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/yi-sang.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Yi Sang</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Anteriormente, o mais jovem chefe de pesquisa de uma divisão confidencial, ele saiu por razões desconhecidas.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
